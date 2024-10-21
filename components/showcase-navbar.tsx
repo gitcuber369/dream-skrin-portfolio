@@ -28,13 +28,15 @@ xl:w-4/5
 
     "
     >
-      {/* <Image
-        src="/logo/logo.webp"
-        alt="Bird Logo"
-        width={1000}
-        height={1000}
-        className="w-28"
-      /> */}
+      <Link href={"/"}>
+        <Image
+          src="/logo/balck_logo_DS.jpg"
+          alt="Bird Logo"
+          width={1000}
+          height={1000}
+          className="w-16"
+        />
+      </Link>
 
       <div className="absolute right-1/2 translate-x-1/2 transform">
         <div className="hidden md:flex gap-x-10 2xl:gap-x-10 items-center text-gray-700 font-medium text-lg ">
