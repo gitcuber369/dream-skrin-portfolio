@@ -11,7 +11,7 @@ const works = [
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
+    imageUrl: "/images/image.png",
     title: "Stanford Biohacks",
     link: "/stanford_poster.pdf",
   },
