@@ -16,43 +16,44 @@ import { Link as ScrollLink, Element } from "react-scroll";
 import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
+import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCards";
 
 const services = [
   {
     icon: "/images/s_6.png",
-    title: "Web Design + Development",
+    title: "Democratizing AI Solutions",
     description:
-      "Take your business to the next level with our web design and development services",
+      "Empower your team with accessible, user-friendly AI that transforms data into strategic insights and drives automated workflows.",
   },
   {
     icon: "/images/s_1.png",
-    title: "Search Engine Optimization",
+    title: "MLOps & Advanced Data Solutions",
     description:
-      "Get your website to the top of search engine results with our SEO services",
+      "Optimize AI deployment with streamlined data pipelines, model monitoring, and end-to-end data engineering solutions.",
   },
   {
     icon: "/images/s_5.png",
-    title: "Content Creation",
+    title: "Native & Web App Development",
     description:
-      "Boost your brand's online presence with our social media marketing services",
+      "Deliver a seamless user experience with responsive, high-performance apps tailored for iOS, Android, and web platforms.",
   },
   {
     icon: "/images/s_3.png",
-    title: "Social Media Marketing",
+    title: "Blockchain & Web3 Solutions",
     description:
-      "Interact with your customers and increase sales with our email marketing services",
+      "Secure your future with innovative blockchain technology, from smart contracts to decentralized finance applications.",
   },
   {
     icon: "/images/s_4.png",
-    title: "Email Marketing",
+    title: "Cloud Computing & Infrastructure Solutions",
     description:
-      "With our content creation services, we help businesses drive results",
+      "Enhance scalability and security with custom cloud solutions, DevOps integration, and reliable multi-cloud architectures.",
   },
   {
     icon: "/images/s_2.png",
-    title: "Pay-Per-Click Advertising",
+    title: "AI Consulting & Strategy",
     description:
-      "Don't waste money on ineffective advertising. Our PPC services help you reach your target audience",
+      "Leverage AI expertise to develop a customized roadmap that aligns with your business goals and unlocks new growth opportunities.",
   },
 ];
 
@@ -181,25 +182,25 @@ export default function Home() {
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-blue-500" />
-                Design
-              </p>
-            </BoxReveal>
-            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-              <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-blue-500" />
                 Development
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-blue-500" />
-                Marketing
+                MLOps
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-blue-500" />
-                Strategy
+                Blockchain
+              </p>
+            </BoxReveal>
+            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+              <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
+                <PiCheckBold className="text-xl text-blue-500" />
+                Cloud Solutions
               </p>
             </BoxReveal>
           </div>
@@ -332,37 +333,7 @@ export default function Home() {
         </main>
       </Element>
 
-      <section>
-        <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
-          <Image
-            src={"/logo/balck_logo.jpg"}
-            width={10000}
-            height={10000}
-            className=" md:w-1/3 rounded-md"
-            alt="image"
-          />
-          <div className="flex flex-col gap-y-5 md:w-1/2">
-            <h1 className="text-lg md:text-2xl ">
-              &quot;We&apos;ve been working with Bird for over 2 years and
-              they&apos;ve been amazing to work with. They&apos;ve helped us
-              grow our business and we couldn&apos;t be happier with the
-              results. &quot;
-            </h1>
-            <div className="flex items-center gap-x-1">
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-            </div>
-
-            <span className="text-xl font-medium">
-              Jordan, Brisson <br />
-              CEO, Atlas Massage
-            </span>
-          </div>
-        </main>
-      </section>
+      <InfiniteMovingCardsDemo />
 
       <Element name="guarentees">
         <ShootingStarsAndStarsBackgroundDemo />
@@ -372,7 +343,7 @@ export default function Home() {
         <LetsMakeThingsHappenSection />
       </section>
 
-      <footer className="bg-[#fafafa] py-10  px-6 md:px-0 md:mx-auto border-t">
+      <footer className="bg-[#ffffff] py-10  px-6 md:px-0 md:mx-auto border-t">
         <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
           <h1 className="text-3xl md:text-5xl font-medium ">
             <Image
@@ -383,10 +354,14 @@ export default function Home() {
               alt="image"
             />{" "}
           </h1>
-          <p className="text-left  text-xl  text-gray-500">+1 (469)796-6964</p>
-          <p className="text-left  text-xl  text-gray-500">
+          <p className="text-left  text-xl  text-gray-500">+1 (469) 796-6964</p>
+          <p className="text-left  text-xl  text-gray-500">+91 87674 39978</p>
+          <Link
+            href={"mailto:mail@dreamskrin.com"}
+            className="text-left  text-xl  text-gray-500"
+          >
             mail@dreamskrin.com
-          </p>
+          </Link>
         </div>
 
         <div className="flex md:justify-center gap-x-4 mt-10">

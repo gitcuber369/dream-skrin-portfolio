@@ -6,55 +6,51 @@ import Image from "next/image";
 const features = [
   {
     icon: "/icons/fast.svg",
-    title: "Fast Delivery",
-    description:
-      "1-2 weeks delivery for most projects. Call us for more information.",
+    title: "Rapid Project Delivery",
+    description: "Efficient project timelines to ensure quick turnarounds, typically within 1-2 weeks for most solutions."
   },
   {
     icon: "/icons/design.svg",
-    title: "Design & Development",
-    description:
-      "We design and develop your website with the latest technologies and trends.",
+    title: "Innovative Design & Development",
+    description: "Modern and visually appealing designs developed with cutting-edge technology and trends."
   },
   {
     icon: "/icons/scalable.svg",
-    title: "Scalability + Maintenance ",
-    description: "We offer maintenance and scalability for all websites.",
+    title: "Seamless Scalability",
+    description: "Our solutions are built to grow with your business, ensuring they scale smoothly as you expand."
   },
   {
     icon: "/icons/team.svg",
-    title: "Team of Experts",
-    description: "A team of experts ready to help you, at all times.",
+    title: "Expert Team Collaboration",
+    description: "A dedicated team of specialists collaborates closely with you to bring your vision to life."
   },
   {
     icon: "/icons/safe.svg",
-    title: "Secure Building",
-    description:
-      "Safe and secure building practices. To ensure your data is safe.",
+    title: "Data Security",
+    description: "We prioritize secure development practices to keep your data and applications safe from threats."
   },
   {
     icon: "/icons/analytics.svg",
-    title: "Analytics Tracking",
-    description: "Track your progress with our built in analytics",
+    title: "Real-Time Analytics",
+    description: "Comprehensive analytics tools to help track, measure, and optimize your project’s performance."
   },
-
   {
     icon: "/icons/flexible.svg",
-    title: "Dynamic Websites",
-    description: "We build dynamic solutions that are easy to manage.",
+    title: "Dynamic, Customizable Solutions",
+    description: "Easily adaptable solutions designed for flexibility and ease of management in the long run."
   },
   {
     icon: "/icons/support.svg",
-    title: "24/7 Support",
-    description:
-      "We offer 24/7 support for all our clients. Call us for more information.",
+    title: "24/7 Client Support",
+    description: "Round-the-clock support to assist with any technical challenges or questions you may have."
   },
   {
     icon: "/icons/money.svg",
-    title: "Affordable Pricing",
-    description: "Affordable pricing for all our clients.",
-  },
+    title: "Cost-Effective Services",
+    description: "Affordable pricing options without compromising on quality, tailored to suit every business."
+  }
 ];
+
 
 export function ShootingStarsAndStarsBackgroundDemo() {
   return (

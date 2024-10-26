@@ -5,30 +5,34 @@ import Link from "next/link";
 const works = [
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Rubbish Brothers",
-    link: "https://www.rubbishbrothers.com",
+    imageUrl: "/images/HepaScope.png",
+    title: "HepaScope Liver Scan",
+    link: "https://www.youtube.com/watch?v=yV8kNUDj_WU",
   },
   {
     background: "bg-gray-200",
     imageUrl: "/images/business.webp",
-    title: "Atlas Massage",
-    link: "https://www.atlasmassage.ca",
+    title: "Stanford Biohacks",
+    link: "/stanford_poster.pdf",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Canadian Security Solutions",
-    link: "https://www.canadiansecuritysolutions.com",
+    imageUrl: "/images/uzbpass.png",
+    title: "UZBPASS",
+    link: "https://uzbpass-tau.vercel.app/",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Flight 9",
-    link: "https://www.flight9.art",
+    imageUrl: "/images/toursnactivities.png",
+    title: "Tours & Activities",
+    link: "https://www.toursnactivities.com/",
   },
-
-
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/UCLA-Hackathon.png",
+    title: "UCLA Hackathon",
+    link: "https://github.com/harshalmore31/UCLA-Hackathon",
+  },
 ];
 
 export function BlurFadeDemo() {
@@ -42,7 +46,7 @@ export function BlurFadeDemo() {
             inView
             className={`rounded-lg ${works[idx].background} p-4`}
           >
-            <Link href={link} target="_blank" rel="noreferrer">
+            <Link href={link} target="_blank" rel="noreferrer" download={link == "/stanford_poster.pdf"}>
               <Image
                 height={10000}
                 width={10000}
