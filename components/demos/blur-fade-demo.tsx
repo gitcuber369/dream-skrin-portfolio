@@ -11,8 +11,8 @@ const works = [
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/image.png",
-    title: "Stanford Biohacks",
+    imageUrl: "/images/biomarker.jpg",
+    title: "Biomarker Prediction for Lung Cancer",
     link: "/stanford_poster.pdf",
   },
   {
@@ -30,7 +30,7 @@ const works = [
   {
     background: "bg-gray-200",
     imageUrl: "/images/UCLA-Hackathon.png",
-    title: "UCLA Hackathon",
+    title: "CTR model",
     link: "https://github.com/harshalmore31/UCLA-Hackathon",
   },
 ];
